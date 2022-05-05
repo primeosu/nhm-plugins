@@ -125,7 +125,7 @@
     },
     {
       "type": "OptionIsParameter",
-      "id": "gminer_--safe_dag",
+      "id": "gminer_safe_dag",
       "short_name": null,
       "long_name": "--safe_dag",
       "default_value": null,
@@ -133,7 +133,7 @@
     },
     {
       "type": "OptionIsParameter",
-      "id": "gminer_memory_tweaks",
+      "id": "gminer_log_date",
       "short_name": null,
       "long_name": "--log_date",
       "default_value": null,
@@ -141,7 +141,7 @@
     },
     {
       "type": "OptionIsParameter",
-      "id": "gminer_--log_stratum",
+      "id": "gminer_log_stratum",
       "short_name": null,
       "long_name": "--log_stratum",
       "default_value": null,
@@ -158,12 +158,36 @@
       "delimiter": " "
     },
     {
-      "type": "OptionWithSingleParameter",
-      "id": "gminer_memory_tweaks",
+      "type": "OptionWithMultipleParameters",
+      "id": "gminer_tfan",
       "short_name": null,
       "long_name": "--tfan",
       "default_value": null,
-      "delimiter": null
+      "delimiter": " "
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "gminer_cclock",
+      "short_name": null,
+      "long_name": "--cclock",
+      "default_value": null,
+      "delimiter": " "
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "gminer_mclock",
+      "short_name": null,
+      "long_name": "--mclock",
+      "default_value": null,
+      "delimiter": " "
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "gminer_cvddc",
+      "short_name": null,
+      "long_name": "--cvddc",
+      "default_value": null,
+      "delimiter": " "
     }
   ]
 }
