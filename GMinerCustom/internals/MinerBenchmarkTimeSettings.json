@@ -1,5 +1,5 @@
 {
-  "use_user_settings": false,
+  "use_user_settings": true,
   "max_ticks_enabled": true,
   "time_general_s": {
     "Quick": 20,
@@ -7,9 +7,15 @@
     "Precise": 120
   },
   "time_per_algorithm_s": {
-    "Quick": {},
-    "Standard": {},
-    "Precise": {}
+    "Quick": {
+      "KAWPOW": 160
+    },
+    "Standard": {
+      "KAWPOW": 180
+    },
+    "Precise": {
+      "KAWPOW": 260
+    }
   },
   "max_ticks_general": {
     "Quick": 1,

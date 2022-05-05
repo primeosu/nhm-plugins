@@ -4,37 +4,166 @@
   "ignore_default_value_options": true,
   "general_options": [
     {
-      "type": "OptionIsParameter",
-      "id": "OptionIsParameter",
-      "short_name": "--OptionIsParameter",
-      "long_name": null,
+      "type": "OptionWithMultipleParameters",
+      "id": "gminer_intensity",
+      "short_name": "-i",
+      "long_name": "--intensity",
+      "default_value": null,
+      "delimiter": " "
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "gminer_logfile",
+      "short_name": "-l",
+      "long_name": "--logfile",
       "default_value": null,
       "delimiter": null
     },
     {
-      "type": "OptionWithDuplicateMultipleParameters",
-      "id": "OptionWithDuplicateMultipleParameters",
-      "short_name": "--OptionWithDuplicateMultipleParameters",
-      "long_name": null,
+      "type": "OptionWithSingleParameter",
+      "id": "gminer_color",
+      "short_name": "-c",
+      "long_name": "--color",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "gminer_pers",
+      "short_name": null,
+      "long_name": "--pers",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "gminer_pec",
+      "short_name": null,
+      "long_name": "--pec=",
+      "default_value": "1",
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "gminer_nvml",
+      "short_name": null,
+      "long_name": "--nvml",
+      "default_value": "1",
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "gminer_cuda",
+      "short_name": null,
+      "long_name": "--cuda",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "gminer_opencl",
+      "short_name": null,
+      "long_name": "--opencl",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "gminer_electricity",
+      "short_name": null,
+      "long_name": "--electricity_cost",
       "default_value": null,
       "delimiter": null
     },
     {
       "type": "OptionWithMultipleParameters",
-      "id": "OptionWithMultipleParameters",
-      "short_name": "--OptionWithMultipleParameters",
-      "long_name": null,
-      "default_value": "0",
-      "delimiter": ","
+      "id": "gminer_oc",
+      "short_name": null,
+      "long_name": "--oc",
+      "default_value": null,
+      "delimiter": " "
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "gminer_oc1",
+      "short_name": null,
+      "long_name": "--oc1",
+      "default_value": null,
+      "delimiter": null
     },
     {
       "type": "OptionWithSingleParameter",
-      "id": "OptionWithSingleParameter",
-      "short_name": "--OptionWithSingleParameter",
-      "long_name": null,
-      "default_value": "1",
+      "id": "gminer_reportInterval",
+      "short_name": null,
+      "long_name": "--report_interval",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "gminer_dagMode",
+      "short_name": null,
+      "long_name": "--dag_mode",
+      "default_value": "0",
+      "delimiter": " "
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "gminer_dagLimit",
+      "short_name": null,
+      "long_name": "--dag_limit",
+      "default_value": null,
+      "delimiter": " "
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "gminer_memory_tweaks",
+      "short_name": null,
+      "long_name": "--mt",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "gminer_--safe_dag",
+      "short_name": null,
+      "long_name": "--safe_dag",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "gminer_memory_tweaks",
+      "short_name": null,
+      "long_name": "--log_date",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "gminer_--log_stratum",
+      "short_name": null,
+      "long_name": "--log_stratum",
+      "default_value": null,
       "delimiter": null
     }
   ],
-  "temperature_options": null
+  "temperature_options": [
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "gminer_templimit",
+      "short_name": "-t",
+      "long_name": "--templimit",
+      "default_value": "90",
+      "delimiter": " "
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "gminer_memory_tweaks",
+      "short_name": null,
+      "long_name": "--tfan",
+      "default_value": null,
+      "delimiter": null
+    }
+  ]
 }
