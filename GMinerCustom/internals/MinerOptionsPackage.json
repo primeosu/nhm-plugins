@@ -1,0 +1,40 @@
+{
+  "use_user_settings": true,
+  "group_mining_pairs_only_with_compatible_options": true,
+  "ignore_default_value_options": true,
+  "general_options": [
+    {
+      "type": "OptionIsParameter",
+      "id": "OptionIsParameter",
+      "short_name": "--OptionIsParameter",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithDuplicateMultipleParameters",
+      "id": "OptionWithDuplicateMultipleParameters",
+      "short_name": "--OptionWithDuplicateMultipleParameters",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "OptionWithMultipleParameters",
+      "short_name": "--OptionWithMultipleParameters",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "OptionWithSingleParameter",
+      "short_name": "--OptionWithSingleParameter",
+      "long_name": null,
+      "default_value": "1",
+      "delimiter": null
+    }
+  ],
+  "temperature_options": null
+}

@@ -1,0 +1,11 @@
+{
+  "use_user_settings": true,
+  "bin_version": "2.91",
+  "bin_path": [
+    "miner.exe"
+  ],
+  "bins_urls": [
+    "https://github.com/develsoftware/GMinerRelease/releases/download/2.91/gminer_2_91_windows64.zip"
+  ],
+  "bins_package_pwd": null
+}

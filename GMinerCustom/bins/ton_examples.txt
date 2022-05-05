@@ -1,0 +1,19 @@
+miner --algo ton --server wss://eu1.stratum.ton-pool.com/stratum --user EQBoG6BHwfFPTEUsxXW8y0TyHN9_5Z1_VIb2uctCd-NDmCbx
+
+miner --algo ton --server https://server1.whalestonpool.com --user EQBoG6BHwfFPTEUsxXW8y0TyHN9_5Z1_VIb2uctCd-NDmCbx
+
+miner --algo ton --server wss://stratum.whalestonpool.com/stratum --user EQBoG6BHwfFPTEUsxXW8y0TyHN9_5Z1_VIb2uctCd-NDmCbx
+
+miner --algo ton --server stratum+tcp://tcp.whalestonpool.com:4001 --user EQBoG6BHwfFPTEUsxXW8y0TyHN9_5Z1_VIb2uctCd-NDmCbx
+
+miner --algo ton --server stratum+tcp://ton.fi.hashrate.to:4003 --user EQBoG6BHwfFPTEUsxXW8y0TyHN9_5Z1_VIb2uctCd-NDmCbx
+
+miner --algo ethash --server eth.2miners.com:2020 --user 0x654B301832286944E920ee570274167a38c6bec2 --dalgo ton --dserver wss://eu1.stratum.ton-pool.com/stratum --duser EQBoG6BHwfFPTEUsxXW8y0TyHN9_5Z1_VIb2uctCd-NDmCbx
+
+miner --algo ethash --server eth.2miners.com:2020 --user 0x654B301832286944E920ee570274167a38c6bec2 --dalgo ton --dserver https://server1.whalestonpool.com --duser EQBoG6BHwfFPTEUsxXW8y0TyHN9_5Z1_VIb2uctCd-NDmCbx
+
+miner --algo ethash --server eth.2miners.com:2020 --user 0x654B301832286944E920ee570274167a38c6bec2 --dalgo ton --dserver wss://stratum.whalestonpool.com/stratum --duser EQBoG6BHwfFPTEUsxXW8y0TyHN9_5Z1_VIb2uctCd-NDmCbx
+
+miner --algo ethash --server eth.2miners.com:2020 --user 0x654B301832286944E920ee570274167a38c6bec2 --dalgo ton --dserver stratum+tcp://tcp.whalestonpool.com:4001 --duser EQBoG6BHwfFPTEUsxXW8y0TyHN9_5Z1_VIb2uctCd-NDmCbx
+
+miner --algo ethash --server eth.2miners.com:2020 --user 0x654B301832286944E920ee570274167a38c6bec2 --dalgo ton --dserver stratum+tcp://ton.fi.hashrate.to:4003 --duser EQBoG6BHwfFPTEUsxXW8y0TyHN9_5Z1_VIb2uctCd-NDmCbx

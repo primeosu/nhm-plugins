@@ -1,0 +1,10 @@
+{
+  "init": false,
+  "PluginEngine": 0,
+  "conection_type": 0,
+  "devices_separator": " ",
+  "default_command_line": "--algo {ALGORITHM} --proto stratum --server {POOL_URL}:{POOL_PORT} --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+  "algorithm_command_line": {
+    "ZHash": "--algo {ALGORITHM} --proto stratum --server {POOL_URL}:{POOL_PORT} --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS} --pers auto"
+  }
+}
