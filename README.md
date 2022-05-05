@@ -18,12 +18,15 @@ On February 17, 2022, NiceHash announced that they will no longer support unsign
 - T-Rex (https://github.com/trexminer/T-Rex)
 
 ## TODO
+- PhoenixMiner (https://bitcointalk.org/index.php?topic=2647654.0) - https://phoenixminer.info/downloads/
 - miniZ (https://github.com/miniZ-miner/miniZ) - is this useful??
 
 ## References
 - NHM Algorithm IDs:
-https://github.com/nicehash/NiceHashMiner/blob/d5b99f69b7a818043c8825dedaa491f88f41c039/src/NHM.Common/Enums/AlgorithmType.cs
+https://github.com/nicehash/NiceHashMiner/blob/master/src/NHM.Common/Enums/AlgorithmType.cs
 - NHM GMiner code before removal:
 https://github.com/nicehash/NiceHashMiner/tree/0213790ad647e43ef89b7ee22457be9f3c586c2c/src/Miners/GMiner
 - NHM TRex code before removal:
 https://github.com/nicehash/NiceHashMiner/tree/0213790ad647e43ef89b7ee22457be9f3c586c2c/src/Miners/TRex
+- NHM Phoenix code before removal:
+https://github.com/nicehash/NiceHashMiner/tree/fd6d42a42d1ba79bcaa733c4ba3647c4f65f0c30/src/Miners/Phoenix

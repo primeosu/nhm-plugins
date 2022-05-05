@@ -2,86 +2,62 @@
   "use_user_settings": true,
   "enable_unsafe_RAM_limits": false,
   "default_fee": 2.0,
-  "algorithm_fees": {
+  "algorithm_fees": null,
+  "algorithm_fees_v2": {
     "DaggerHashimoto": 1.0,
     "KAWPOW": 1.0
   },
   "device_algorithms": {
     "NVIDIA": [
       {
-        "IDs": [
-          36
-        ],
+        "IDs": "DaggerHashimoto",
         "Enabled": null,
         "ExtraLaunchParameters": null,
         "NonDefaultRAMLimit": null
       },
       {
-        "IDs": [
-          39
-        ],
-        "Enabled": false,
-        "ExtraLaunchParameters": null,
-        "NonDefaultRAMLimit": null
-      },
-      {
-        "IDs": [
-          43
-        ],
+        "IDs": "ZHash",
         "Enabled": null,
         "ExtraLaunchParameters": null,
         "NonDefaultRAMLimit": null
       },
       {
-        "IDs": [
-          50
-        ],
+        "IDs": "GrinCuckatoo31",
         "Enabled": false,
         "ExtraLaunchParameters": null,
         "NonDefaultRAMLimit": null
       },
       {
-        "IDs": [
-          52
-        ],
+        "IDs": "GrinCuckatoo32",
+        "Enabled": false,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": null
+      },
+      {
+        "IDs": "CuckooCycle",
+        "Enabled": null,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": null
+      },
+      {
+        "IDs": "KAWPOW",
         "Enabled": null,
         "ExtraLaunchParameters": null,
         "NonDefaultRAMLimit": 4294967296
       },
       {
-        "IDs": [
-          54
-        ],
+        "IDs": "BeamV3",
         "Enabled": null,
         "ExtraLaunchParameters": null,
         "NonDefaultRAMLimit": null
       },
       {
-        "IDs": [
-          20
-        ],
-        "Enabled": null,
-        "ExtraLaunchParameters": null,
-        "NonDefaultRAMLimit": null
-      },
-      {
-        "IDs": [
-          58
-        ],
+        "IDs": "ZelHash",
         "Enabled": null,
         "ExtraLaunchParameters": null,
         "NonDefaultRAMLimit": null
       }
     ]
   },
-  "plugin_algorithm_name": {
-    "ZHash": "144_5",
-    "ZelHash": "125_4",
-    "GrinCuckatoo31": "grin31",
-    "GrinCuckatoo32": "cuckatoo32",
-    "CuckooCycle": "cuckoo29",
-    "KAWPOW": "kawpow",
-    "BeamV3": "beamhashIII",
-    "DaggerHashimoto": "ethash"
-  }
+  "plugin_algorithm_name": null
 }

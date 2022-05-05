@@ -1,9 +1,18 @@
 {
   "init": false,
   "PluginEngine": 0,
-  "conection_type": 0,
+  "use_user_settings": true,
   "devices_separator": ",",
-  "default_command_line": "--algo {ALGORITHM} --url stratum2+tcp://{POOL_URL}:{POOL_PORT} --user {USERNAME} --api-bind-http 127.0.0.1:{API_PORT} --no-watchdog --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
   "algorithm_command_line": {
+    "DaggerHashimoto": "--algo ethash --url stratum2+tcp://{POOL_URL}:{POOL_PORT} --user {USERNAME} --api-bind-http 127.0.0.1:{API_PORT} --no-watchdog --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+    "KAWPOW": "--algo kawpow --url stratum2+tcp://{POOL_URL}:{POOL_PORT} --user {USERNAME} --api-bind-http 127.0.0.1:{API_PORT} --no-watchdog --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+    "Octopus": "--algo octopus --url stratum2+tcp://{POOL_URL}:{POOL_PORT} --user {USERNAME} --api-bind-http 127.0.0.1:{API_PORT} --no-watchdog --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+    "Autolykos": "--algo autolykos2 --url stratum2+tcp://{POOL_URL}:{POOL_PORT} --user {USERNAME} --api-bind-http 127.0.0.1:{API_PORT} --no-watchdog --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}"
+  },
+  "algorithm_command_line_ssl": {
+    "DaggerHashimoto": "--algo ethash --url stratum2+ssl://{POOL_URL}:443 --no-strict-ssl --user {USERNAME} --api-bind-http 127.0.0.1:{API_PORT} --no-watchdog --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+    "KAWPOW": "--algo kawpow --url stratum2+ssl://{POOL_URL}:443 --no-strict-ssl --user {USERNAME} --api-bind-http 127.0.0.1:{API_PORT} --no-watchdog --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+    "Octopus": "--algo octopus --url stratum2+ssl://{POOL_URL}:443 --no-strict-ssl --user {USERNAME} --api-bind-http 127.0.0.1:{API_PORT} --no-watchdog --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+    "Autolykos": "--algo autolykos2 --url stratum2+ssl://{POOL_URL}:443 --no-strict-ssl --user {USERNAME} --api-bind-http 127.0.0.1:{API_PORT} --no-watchdog --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}"
   }
 }

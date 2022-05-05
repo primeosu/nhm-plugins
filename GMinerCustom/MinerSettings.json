@@ -1,10 +1,26 @@
 {
   "init": false,
   "PluginEngine": 0,
-  "conection_type": 0,
+  "use_user_settings": true,
   "devices_separator": " ",
-  "default_command_line": "--algo {ALGORITHM} --proto stratum --server {POOL_URL}:{POOL_PORT} --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
   "algorithm_command_line": {
-    "ZHash": "--algo {ALGORITHM} --proto stratum --server {POOL_URL}:{POOL_PORT} --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS} --pers auto"
+    "DaggerHashimoto": "--algo ethash --proto stratum --server {POOL_URL}:{POOL_PORT} --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+    "ZHash": "--algo 144_5 --server {POOL_URL}:{POOL_PORT} --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS} --pers auto",
+    "GrinCuckatoo31": "--algo grin31 --server {POOL_URL}:{POOL_PORT} --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+    "GrinCuckatoo32": "--algo cuckatoo32 --server {POOL_URL}:{POOL_PORT} --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+    "CuckooCycle": "--algo cuckoo29 --server {POOL_URL}:{POOL_PORT} --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+    "KAWPOW": "--algo kawpow --server {POOL_URL}:{POOL_PORT} --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+    "BeamV3": "--algo beamhashIII --server {POOL_URL}:{POOL_PORT} --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+    "ZelHash": "--algo 125_4 --server {POOL_URL}:{POOL_PORT} --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}"
+  },
+  "algorithm_command_line_ssl": {
+    "DaggerHashimoto": "--algo ethash --proto stratum --server {POOL_URL}:443 --ssl 1 --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+    "ZHash": "--algo 144_5 --server {POOL_URL}:443 --ssl 1 --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS} --pers auto",
+    "GrinCuckatoo31": "--algo grin31 --server {POOL_URL}:443 --ssl 1 --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+    "GrinCuckatoo32": "--algo cuckatoo32 --server {POOL_URL}:443 --ssl 1 --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+    "CuckooCycle": "--algo cuckoo29 --server {POOL_URL}:443 --ssl 1 --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+    "KAWPOW": "--algo kawpow --server {POOL_URL}:443 --ssl 1 --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+    "BeamV3": "--algo beamhashIII --server {POOL_URL}:443 --ssl 1 --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}",
+    "ZelHash": "--algo 125_4 --server {POOL_URL}:443 --ssl 1 --user {USERNAME} --api {API_PORT} --watchdog 0 --devices {DEVICES} {EXTRA_LAUNCH_PARAMETERS}"
   }
 }
