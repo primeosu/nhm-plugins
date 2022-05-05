@@ -13,6 +13,15 @@ On February 17, 2022, NiceHash announced that they will no longer support unsign
 3. Update each miner's `bins` directory with the latest version of the miner (README in plugin folder has the download link).
 4. Start NiceHash Miner.
 
+## Notes
+- If getting "Unstable" miner statuses, try editing your `General.json` file with:
+  ```json
+  "SwitchSmaTicksUnstable": {
+    "Lower": 15,
+    "Upper": 23
+  },
+  ```
+
 ## Completed
 - GMiner (https://github.com/develsoftware/GMinerRelease)
 - T-Rex (https://github.com/trexminer/T-Rex)
@@ -30,3 +39,5 @@ https://github.com/nicehash/NiceHashMiner/tree/0213790ad647e43ef89b7ee22457be9f3
 https://github.com/nicehash/NiceHashMiner/tree/0213790ad647e43ef89b7ee22457be9f3c586c2c/src/Miners/TRex
 - NHM Phoenix code before removal:
 https://github.com/nicehash/NiceHashMiner/tree/fd6d42a42d1ba79bcaa733c4ba3647c4f65f0c30/src/Miners/Phoenix
+- Best Ethereum Miner:
+https://2miners.com/blog/best-ethereum-mining-software-for-nvidia-and-amd/
