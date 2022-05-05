@@ -1,0 +1,11 @@
+{
+  "use_user_settings": true,
+  "bin_version": "6.1b",
+  "bin_path": [
+    "PhoenixMiner.exe"
+  ],
+  "bins_urls": [
+    "https://phoenixminer.info/downloads/PhoenixMiner_6.1b_Windows.zip"
+  ],
+  "bins_package_pwd": null
+}

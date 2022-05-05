@@ -1,0 +1,19 @@
+{
+  "use_user_settings": true,
+  "enable_unsafe_RAM_limits": false,
+  "default_fee": 0.65,
+  "algorithm_fees": null,
+  "algorithm_fees_v2": {
+  },
+  "device_algorithms": {
+    "NVIDIA": [
+      {
+        "IDs": "DaggerHashimoto",
+        "Enabled": null,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": null
+      }
+    ]
+  },
+  "plugin_algorithm_name": null
+}

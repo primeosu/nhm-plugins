@@ -1,0 +1,12 @@
+{
+  "init": false,
+  "PluginEngine": 0,
+  "use_user_settings": true,
+  "devices_separator": ",",
+  "algorithm_command_line": {
+    "DaggerHashimoto": "-pool stratum+tcp://{POOL_URL}:{POOL_PORT} -wal {USERNAME} -proto 4 -stales 0 -wdog 0 -gpus {DEVICES} -gbase 0 {EXTRA_LAUNCH_PARAMETERS}"
+  },
+  "algorithm_command_line_ssl": {
+    "DaggerHashimoto": "-pool stratum+ssl://{POOL_URL}:443 -wal {USERNAME} -proto 4 -stales 0 -wdog 0 -gpus {DEVICES} -gbase 0 -mport 127.0.0.1:{API_PORT} {EXTRA_LAUNCH_PARAMETERS}"
+  }
+}

@@ -1,0 +1,449 @@
+{
+  "use_user_settings": true,
+  "group_mining_pairs_only_with_compatible_options": true,
+  "ignore_default_value_options": true,
+  "general_options": [
+    {
+      "type": "OptionIsParameter",
+      "id": "phoenix_acm",
+      "short_name": "-acm",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_mi",
+      "short_name": "-mi",
+      "long_name": null,
+      "default_value": "12",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_gt",
+      "short_name": "-gt",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_sci",
+      "short_name": "-sci",
+      "long_name": null,
+      "default_value": "30",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_clKernel",
+      "short_name": "-clKernel",
+      "long_name": null,
+      "default_value": "1",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_clGreen",
+      "short_name": "-clGreen",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_clNew",
+      "short_name": "-clNew",
+      "long_name": null,
+      "default_value": "1",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_clf",
+      "short_name": "-clf",
+      "long_name": null,
+      "default_value": "1",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_nvKernel",
+      "short_name": "-nvKernel",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_nvdo",
+      "short_name": "-nvdo",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_nvNew",
+      "short_name": "-nvNew",
+      "long_name": null,
+      "default_value": "1",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_nvf",
+      "short_name": "-nvf",
+      "long_name": null,
+      "default_value": "1",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_mingRigSpeed",
+      "short_name": "-minRigSpeed",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_eres",
+      "short_name": "-eres",
+      "long_name": null,
+      "default_value": "2",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_daglimit",
+      "short_name": "-daglim",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_dagrestart",
+      "short_name": "-dagrestart",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_lidag",
+      "short_name": "-lidag",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_gser",
+      "short_name": "-gser",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_rvram",
+      "short_name": "-rvram",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "phoenix_altinit",
+      "short_name": "-altinit",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_log",
+      "short_name": "-log",
+      "long_name": null,
+      "default_value": "1",
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_logfile",
+      "short_name": "-logfile",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_logdir",
+      "short_name": "-logdir",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_logsmaxsize",
+      "short_name": "-logsmaxsize",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_config",
+      "short_name": "-config",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_gpow",
+      "short_name": "-gpow",
+      "long_name": null,
+      "default_value": "100",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_li",
+      "short_name": "-li",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "phoenix_resetoc",
+      "short_name": "-resetoc",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "phoenix_leaveoc",
+      "short_name": "-leaveoc",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_straps",
+      "short_name": "-straps",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_vmt1",
+      "short_name": "-vmt1",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_vmt2",
+      "short_name": "-vmt2",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_vmt3",
+      "short_name": "-vmt3",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_vmr",
+      "short_name": "-vmr",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_nvmem",
+      "short_name": "-nvmem",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_rxboost",
+      "short_name": "-rxboost",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_mcdag",
+      "short_name": "-mcdag",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_stales",
+      "short_name": "-stales",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_prate",
+      "short_name": "-prate",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    }
+  ],
+  "temperature_options": [
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_ttli",
+      "short_name": "-ttli",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_hwm",
+      "short_name": "-hwm",
+      "long_name": null,
+      "default_value": "1",
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_tt",
+      "short_name": "-tt",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_fanmin",
+      "short_name": "-fanmin",
+      "long_name": null,
+      "default_value": "-1",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_fanmax",
+      "short_name": "-fanmax",
+      "long_name": null,
+      "default_value": "-1",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_fcm",
+      "short_name": "-fcm",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_tmax",
+      "short_name": "-tmax",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_powlim",
+      "short_name": "-powlim",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_cclock",
+      "short_name": "-cclock",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_cvddc",
+      "short_name": "-cvddc",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_mclock",
+      "short_name": "-mclock",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_mvddc",
+      "short_name": "-mvddc",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_mt",
+      "short_name": "-mt",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_tstop",
+      "short_name": "-tstop",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "phoenix_tstart",
+      "short_name": "-tstart",
+      "long_name": null,
+      "default_value": "0",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "phoenix_hstats",
+      "short_name": "-hstats",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    }
+  ]
+}

@@ -16,9 +16,9 @@ On February 17, 2022, NiceHash announced that they will no longer support unsign
 ## Completed
 - GMiner (https://github.com/develsoftware/GMinerRelease)
 - T-Rex (https://github.com/trexminer/T-Rex)
+- PhoenixMiner (https://bitcointalk.org/index.php?topic=2647654.0)
 
 ## TODO
-- PhoenixMiner (https://bitcointalk.org/index.php?topic=2647654.0) - https://phoenixminer.info/downloads/
 - miniZ (https://github.com/miniZ-miner/miniZ) - is this useful??
 
 ## References
