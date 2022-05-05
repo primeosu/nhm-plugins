@@ -1,0 +1,233 @@
+{
+  "use_user_settings": true,
+  "group_mining_pairs_only_with_compatible_options": true,
+  "ignore_default_value_options": true,
+  "general_options": [
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "trex_extraDagEpoch",
+      "short_name": null,
+      "long_name": "--extra-dag-epoch",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "trex_intensity",
+      "short_name": "-i",
+      "long_name": "--intensity",
+      "default_value": "auto",
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "trex_kernel",
+      "short_name": null,
+      "long_name": "--kernel",
+      "default_value": "0",
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "trex_lowLoad",
+      "short_name": "--low-load",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "trex_keepGpuBusy",
+      "short_name": "--keep-gpu-busy",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "trex_tempColor",
+      "short_name": null,
+      "long_name": "--temperature-color",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "trex_apiReadOnly",
+      "short_name": "--api-read-only",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "trex_avgHashrate",
+      "short_name": "-N",
+      "long_name": "--hashrate-avr",
+      "default_value": "60",
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "trex_avgSharerate",
+      "short_name": "--sharerate-avr",
+      "long_name": null,
+      "default_value": "600",
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "trex_reportInterval",
+      "short_name": "--gpu-report-interval",
+      "long_name": null,
+      "default_value": "30",
+      "delimiter": null
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "trex_quiet",
+      "short_name": "-q",
+      "long_name": "--quiet",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "trex_hideDate",
+      "short_name": "--hide-date",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "trex_noColor",
+      "short_name": "--no-color",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "trex_noNvml",
+      "short_name": "--no-nvml",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionIsParameter",
+      "id": "trex_noHashrateReport",
+      "short_name": "--no-hashrate-report",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "trex_logPath",
+      "short_name": "-l",
+      "long_name": "--log-path",
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "trex_priority",
+      "short_name": "--cpu-priority",
+      "long_name": null,
+      "default_value": "2",
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "trex_reconectFailed",
+      "short_name": "--reconnect-on-fail-shares",
+      "long_name": null,
+      "default_value": "10",
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "trex_memoryTweak",
+      "short_name": "--mt",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "trex_reportInterval",
+      "short_name": "--gpu-report-interval-s",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithMultipleParameters",
+      "id": "trex_dagBuildMode",
+      "short_name": "--dag-build-mode",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": ","
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "trex_scriptStart",
+      "short_name": "--script-start",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "trex_scriptEpochChange",
+      "short_name": "--script-epoch-change",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "trex_scriptCrash",
+      "short_name": "--script-crash",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "trex_scriptLowHash",
+      "short_name": "--script-low-hash",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "trex_scriptExit",
+      "short_name": "--script-exit",
+      "long_name": null,
+      "default_value": null,
+      "delimiter": null
+    }
+  ],
+  "temperature_options": [
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "trex_tempLimit",
+      "short_name": null,
+      "long_name": "--temperature-limit",
+      "default_value": "0",
+      "delimiter": null
+    },
+    {
+      "type": "OptionWithSingleParameter",
+      "id": "trex_tempStart",
+      "short_name": null,
+      "long_name": "--temperature-start",
+      "default_value": "0",
+      "delimiter": null
+    }
+  ]
+}

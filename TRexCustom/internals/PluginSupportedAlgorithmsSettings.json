@@ -1,0 +1,51 @@
+{
+  "use_user_settings": true,
+  "enable_unsafe_RAM_limits": false,
+  "default_fee": 1.0,
+  "algorithm_fees": {
+    "Octopus": 2.0,
+    "Autolykos": 2.0
+  },
+  "device_algorithms": {
+    "NVIDIA": [
+      {
+        "IDs": [
+          52
+        ],
+        "Enabled": null,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": 4294967296
+      },
+      {
+        "IDs": [
+          20
+        ],
+        "Enabled": null,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": null
+      },
+      {
+        "IDs": [
+          56
+        ],
+        "Enabled": null,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": null
+      },
+      {
+        "IDs": [
+          57
+        ],
+        "Enabled": null,
+        "ExtraLaunchParameters": null,
+        "NonDefaultRAMLimit": null
+      }
+    ]
+  },
+  "plugin_algorithm_name": {
+    "KAWPOW": "kawpow",
+    "DaggerHashimoto": "ethash",
+    "Octopus": "octopus",
+    "Autolykos": "autolykos2"
+  }
+}
