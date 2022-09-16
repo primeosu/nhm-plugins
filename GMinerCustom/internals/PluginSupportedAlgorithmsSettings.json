@@ -47,7 +47,7 @@
       },
       {
         "IDs": "BeamV3",
-        "Enabled": null,
+        "Enabled": false,
         "ExtraLaunchParameters": null,
         "NonDefaultRAMLimit": null
       },
